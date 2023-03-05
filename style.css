@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3d087b;
+}
+
+img {
+  width: 204px;
+  height: 77px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 124px;
+}
+
+.para1 {
+  color: #858585;
+  font-size: 14px;
+  box-sizing: border-box;
+  width: 150px;
+  height: 57px;
+  background-color: #ffffff;
+  text-align: left;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: -99px;
+  margin-left: 354px;
+}
+
+.left {
+  width: 400px;
+  height: 313px;
+  background-color: #ffffff;
+  margin-top: -475px;
+  margin-left: 110px;
+  border-radius: 5px;
+}
+
+section li img {
+  width: 25px;
+  height: 25px;
+  margin-top: 6px;
+  margin-left: 25px;
+  padding: 6px;
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  margin-left: 14px;
+  position: relative;
+  bottom: 35px;
+}
+
+select {
+  width: 161px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 7px 10px;
+}
+
+.container {
+  margin-top: 15px;
+  width: 400px;
+  height: 50px;
+  background-color: #8e53f0;
+  margin-left: 124px;
+  border-radius: 5px;
+}
+
+.a {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+  padding-top: 5px;
+  padding-left: 25px;
+  font-family: "Gajraj One", cursive;
+}
+
+.container2 {
+  width: 170px;
+  height: 30px;
+  margin-left: 123px;
+  margin-top: 15px;
+  background: linear-gradient(#6e54ec, #cb52f8, #fc5eff, #f1a7c5);
+}
+
+.para2 {
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.container2:hover .para2:after {
+  content: "Party Time";
+}
+
+.container2:hover .para2::before {
+  content: "";
+}
+
+.para2::before {
+  content: "Set Alarm";
+}
+
+.para3 {
+  width: 210px;
+  height: 78px;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 3px;
+  color: #f25cfe;
+  background-color: #8e53f0;
+  margin-top: -38px;
+  margin-left: 305px;
+}
+
+.para4 {
+  width: 200px;
+  height: auto;
+  padding: 4px;
+  font-size: 14px;
+  margin-left: 50px;
+  margin-top: -30px;
+  border-radius: 7px;
+  background-color: #ffffff;
+}
+
+.right {
+  
+margin-left: 600px;
+}
+
+
+.index {
+  width: 450px;
+  background-color: #ffffff;
+  height: 70px;
+  margin-top: -40px;
+  margin-bottom: 30px;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  right: 80px;
+  z-index: 5;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+.v{
+  border-left: 2px solid black;
+  height: 20px;
+  margin-left: 45px;
+ 
+}
+
+.b1 {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.b2 {
+  margin-top: 5px;
+  font-size: 22px;
+  color: #8a11bf;
+  width: 60px;
+  height: 53px;
+  background-color: #f6e2ff;
+  text-align: center;
+}
+
+.b3 {
+  color: #8a11bf;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.b4 {
+  margin-right: 15px;
+  margin-top: 5px;
+  width: 60px;
+  height: 40px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 27px;
+  color: #f6e2ff;
+  background-color: #f25cfe;
+}
+
+.d1 {
+  width: 350px;
+  height: 60px;
+  top: 60px;
+  left: 600px;
+  background-color: #f6e2ff;
+  position: absolute;
+  right: 120px;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+.heading {
+  width: 450px;
+  height: 58px;
+  padding: 10px;
+  position: relative;
+  right: 70px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #8e53f0;
+  font-family: "Gajraj One", cursive;
+}
+
+.img {
+  width: 500px;
+  height: 300px;
+  margin-top: 10px;
+  position: relative;
+  right: 210px;
+}
+
+footer {
+  color: #b85ebf;
+  margin-left: 160px;
+}
+
+select:hover{
+  background-color: whitesmoke;
+}
